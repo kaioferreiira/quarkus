@@ -1,6 +1,4 @@
-    # curso.projeto project 
-
-Using Quarkus Panache Mysql GraalVM GitlabCI AWS.
+## Using Quarkus Panache Mysql GraalVM GitlabCI AWS.
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
