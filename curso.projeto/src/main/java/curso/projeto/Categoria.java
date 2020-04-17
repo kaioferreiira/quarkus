@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
 public class Categoria {
@@ -12,7 +13,7 @@ public class Categoria {
   @GeneratedValue(strategy = GenerationType.AUTO, generator = "increment")
   private Long id;
 
-//  @NotEmpty(message = "CAMPO VAZIO")
+  @NotEmpty(message = "CAMPO VAZIO")
   private String nome;
 
   private String sobreNome;
